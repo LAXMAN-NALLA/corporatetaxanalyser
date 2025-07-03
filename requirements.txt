@@ -1,0 +1,18 @@
+
+
+# Optimized requirements.txt for Backend-Only Deployment
+
+# --- Core API Framework & Server ---
+fastapi
+uvicorn[standard]
+gunicorn
+python-multipart
+
+# --- Data Processing & AI ---
+pandas
+openai
+pdfplumber
+openpyxl
+
+# --- Utilities ---
+python-dotenv
